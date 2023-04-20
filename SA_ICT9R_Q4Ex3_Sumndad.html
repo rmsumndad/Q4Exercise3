@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Q4 | Exercise 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+
+<style>
+
+div{
+	color: white;
+	font-family: 'Chivo Mono', monospace;
+}
+
+body{
+	background-color: black;
+}
+
+#div1{
+		margin-left: 25%;
+		margin-right: 25%;
+		color: black;
+		background-color: lavender;
+		font-family: 'Chivo Mono', monospace;
+}
+
+#div2{
+		margin-left: 25%;
+		margin-right: 25%;
+		color: black;
+		background-color: lavenderblush;
+		font-family: 'Chivo Mono', monospace;
+}
+
+h4, h3{
+		color: white;
+		font-size: 30px;
+		font-family: 'Roboto Mono', monospace;
+}
+
+p{
+		font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+	<br><br>
+
+	<h3 align="center">How To Substitute and Solve:</h3>
+<br>
+<hr>
+<div><br>
+	<h4 align="center">x=10, y=5</h4>
+<br></div><hr>
+<br>
+<h4 align="center">Addition</h4>
+
+<div id="div1">
+<br>
+	<p align="center">x + y = <strong id="v1"></strong></p>
+<br>
+</div>
+
+<br><br>
+
+<h4 align="center">Subtraction</h4>
+
+<div id="div2">
+<br>
+	<p align="center">x - y = <strong id="v2"></strong></p>
+<br>
+</div>
+
+<br><br>
+
+<h4 align="center">Multiplication</h4>
+
+<div id="div1">
+<br>
+	<p align="center">x * y = <strong id="v3"></strong></p>
+<br>
+</div>
+
+<br><br>
+
+<h4 align="center">Division</h4>
+
+<div id="div2">
+<br>
+	<p align="center">x / y = <strong id="v4"></strong></p>
+<br>
+</div>
+
+<br><br>
+
+<h4 align="center">Modulus</h4>
+
+<div id="div1">
+<br>	
+	<p align="center">x % y = <strong id="v5"></strong></p>
+<br>	
+
+	
+</div>
+
+	<script>
+		let x=10, y=5;
+
+		let add = x + y;
+		let sub = x - y;
+		let mul = x * y;
+		let div = x / y;
+		let per = x % y;
+
+		alert("The sum of variable x and variable y is: " + add + "\n" + "The difference of variable x and variable y is: " + sub + "\n" + "The product of variable x and variable y is: " + mul + "\n" + "The quotient of variable x and variable y is: " + div + "\n" + "The modulus of variable x and variable y is: " + per + "\n")
+
+		//variable decleration;assignment of values 
+		document.getElementById("v1").innerHTML = x + y;
+		document.getElementById("v2").innerHTML = x - y;
+		document.getElementById("v3").innerHTML = x * y;
+		document.getElementById("v4").innerHTML = x / y;
+		document.getElementById("v5").innerHTML = x % y;
+	</script>
+
+<br><br><br>
+
+</body>
+</html>
